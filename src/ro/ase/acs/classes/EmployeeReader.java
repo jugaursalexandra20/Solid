@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DataReader {
+public class EmployeeReader {
 
     public static void readData(Connection connection) throws SQLException {
         String sqlSelect = "SELECT * FROM employees";

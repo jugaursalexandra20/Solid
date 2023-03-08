@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396d2180-6cec-4ed0-aa58-acf4bf7fa2c3" name="Changes" comment="Added the following classes: TableCreator,DataInserter, DataReader">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/xerial_sqlite_jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Solid/ro/ase/acs/classes/DataInserter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Solid/ro/ase/acs/classes/DataReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Solid/ro/ase/acs/classes/TableCreator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Solid/ro/ase/acs/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/DataInserter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/TableCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableInserter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -101,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678257391616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added the following classes: TableCreator,DataInserter, DataReader">
+      <created>1678259542330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678259542330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
