@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396d2180-6cec-4ed0-aa58-acf4bf7fa2c3" name="Changes" comment="Added the following classes: TableCreator,DataInserter, DataReader">
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableInserter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableReader.java" afterDir="false" />
+    <list default="true" id="396d2180-6cec-4ed0-aa58-acf4bf7fa2c3" name="Changes" comment="Renamed the following classes: TableCreator,DataInserter, DataReader to EmployeeCreator, EmployeeInserter and EmployeeReader&#10;&#10;Added the following interfaces: DataInserter, DataReader, TableCreator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeInserter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/EmployeeReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/DataInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/DataInserter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/interfaces/TableCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678259542330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Renamed the following classes: TableCreator,DataInserter, DataReader to EmployeeCreator, EmployeeInserter and EmployeeReader&#10;&#10;Added the following interfaces: DataInserter, DataReader, TableCreator">
+      <created>1678260987399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678260987399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +129,7 @@
     <MESSAGE value="Created project" />
     <MESSAGE value="Added Main class" />
     <MESSAGE value="Added the following classes: TableCreator,DataInserter, DataReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the following classes: TableCreator,DataInserter, DataReader" />
+    <MESSAGE value="Renamed the following classes: TableCreator,DataInserter, DataReader to EmployeeCreator, EmployeeInserter and EmployeeReader&#10;&#10;Added the following interfaces: DataInserter, DataReader, TableCreator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed the following classes: TableCreator,DataInserter, DataReader to EmployeeCreator, EmployeeInserter and EmployeeReader&#10;&#10;Added the following interfaces: DataInserter, DataReader, TableCreator" />
   </component>
 </project>

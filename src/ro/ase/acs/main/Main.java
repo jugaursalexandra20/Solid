@@ -3,6 +3,9 @@ package ro.ase.acs.main;
 import ro.ase.acs.classes.EmployeeInserter;
 import ro.ase.acs.classes.EmployeeReader;
 import ro.ase.acs.classes.EmployeeCreator;
+import ro.ase.acs.interfaces.DataInserter;
+import ro.ase.acs.interfaces.DataReader;
+import ro.ase.acs.interfaces.TableCreator;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,13 +18,13 @@ public class Main {
             Connection connection = DriverManager.getConnection("jdbc:sqlite:database.db");
             connection.setAutoCommit(false);
 
-            EmployeeCreator createTable = new EmployeeCreator();
+            TableCreator createTable = new EmployeeCreator();
             createTable.createTable(connection);
 
-            EmployeeInserter dataInserter = new EmployeeInserter();
+            DataInserter dataInserter = new EmployeeInserter();
             dataInserter.insertData(connection);
 
-            EmployeeReader dataReader = new EmployeeReader();
+            DataReader dataReader = new EmployeeReader();
             dataReader.readData(connection);
 
             connection.close();
